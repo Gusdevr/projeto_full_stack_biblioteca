@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+
+    header{
+        background-color: #99C2EC;
+        height: 160px;
+        display: flex;
+    }
+
+
+    header h1{
+        display: flex;
+        height: 40px;
+        margin-left: 860px;
+        margin-top: 110px;
+    }
+.logo{
+    display: flex;
+    height: 200px;
+    width: 100px;
+    margin-left: 860px;
+    position: absolute;
+
+    
+}
+
+    .cards{
+        display: flex;
+        
+    }

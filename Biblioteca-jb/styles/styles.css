@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    padding: 20px;
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    
+}
+
+/* Header */
+.header-C {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #4e99e5;
+    padding: 20px;
+    color: white;
+}
+
+.header-C ul {
+    list-style: none;
+    display: flex;
+}
+
+.header-C ul li {
+    margin: 0 15px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.header-C ul li:hover {
+    text-decoration: underline;
+}
+
+.logo {
+    max-width: 150px;
+}
+
+/* Biblioteca JB */
+.bj {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.bj h1 {
+    font-size: 2.5rem;
+    color: #34495e;
+}
+
+/* Container de Cards */
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* Estilo de cada Card */
+.card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Estilo para padronizar as imagens dentro dos cards */
+.card img {
+    width: 150px; /* Defina a largura fixa */
+    height: 200px; /* Defina a altura fixa */
+    object-fit: cover; /* Mantém a proporção e corta a imagem conforme necessário */
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+
+.card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #34495e;
+}
+
+.card p {
+    font-size: 1rem;
+    color: #7f8c8d;
+    margin-bottom: 10px;
+}
+
+.button-card {
+    margin-top: 10px;
+}
+
+.button-card button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.button-card button:hover {
+    background-color: #2980b9;
+}
+
+/* Botão para carregar livros */
+.livros-disp {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.livros-disp button {
+    padding: 15px 30px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2rem;
+}
+
+.livros-disp button:hover {
+    background-color: #2980b9;
+}

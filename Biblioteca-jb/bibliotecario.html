@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/bibliotecario.css">
+    <title>Sistema de Gerenciamento - Bibliotecário</title>
+</head>
+
+<body>
+    <header>
+        <h1>Sistema de Gerenciamento do Bibliotecário</h1>
+        <button id="logoutBtn">Logout</button>
+    </header>
+
+    <div class="container">
+        <section>
+            <h2>Adicionar Livro</h2>
+            <form id="adicionarLivroForm" enctype="multipart/form-data">
+                <input type="text" id="titulo" placeholder="Título" required>
+                <input type="text" id="autor" placeholder="Autor" required>
+                <input type="number" id="quantidade" placeholder="Quantidade" required>
+                <input type="text" id="editora" placeholder="Editora" required>
+                <input type="text" id="assunto" placeholder="Assunto" required>
+                <select id="faixaEtaria" required>
+                    <option value="Livre">Livre</option>
+                    <option value="Infantil">Infantil</option>
+                    <option value="Infantojuvenil">Infantojuvenil</option>
+                    <option value="Adulto">Adulto</option>
+                </select>
+
+                <input type="file" id="imagem" accept="image/*" required>
+                <button type="submit">Adicionar Livro</button>
+            </form>
+        </section>
+
+        <section>
+            <h2>Empréstimos de Usuários</h2>
+            <ul id="emprestimosList"></ul>
+        </section>
+    </div>
+
+    <script type="module" src="./src/usuario.js"></script>
+
+</body>
+
+</html>

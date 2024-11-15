@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/bibliotecario.css">
+    <title>Registro Bibliotecário</title>
+</head>
+
+<body>
+    <header>
+        <h1>Registro de Bibliotecário</h1>
+    </header>
+
+    <div class="container">
+        <form id="registroForm">
+            <input type="text" id="nome" placeholder="Nome" required>
+            <input type="email" id="email" placeholder="Email" required>
+            <input type="password" id="senha" placeholder="Senha" required>
+            <input type="text" id="masp" placeholder="MASP (Matrícula)" required>
+            <button type="submit">Registrar</button>
+            <a href="./index.html"><img style="width: 30px; margin-top: 15px;" class="arrow-home" src="./img/avanco-rapido.png" alt="Inicio"></a>
+        </form>
+    </div>
+
+    <script type="module" src="./src/usuario.js"></script>
+
+</body>
+
+</html>

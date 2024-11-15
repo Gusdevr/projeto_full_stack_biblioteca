@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/usuario.css">
+    <title>Página do Usuário</title>
+</head>
+
+<body>
+    <header>
+        <h1>Bem-vindo, <span id="nomeUsuario"></span>!</h1>
+        <button id="logoutBtn">Logout</button>
+    </header>
+
+    <section class="container">
+        <div class="livros-disponiveis">
+            <h2>Livros Disponíveis</h2>
+            <ul id="listaLivros"></ul>
+        </div>
+
+        <div class="livros-alugados">
+            <h2>Seus Livros Alugados</h2>
+            <ul id="listaAlugados"></ul>
+        </div>
+    </section>
+
+    <script type="module" src="./src/usuario.js"></script>
+
+</body>
+
+</html>
